@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+    height: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffc46c;
+}
+.header img{
+    width: 100px;
+    height: auto;
+}
+
+
+.header a{
+    text-decoration: none;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    color:black;
+}
+.header input{
+    border-radius: 20px ;
+    border: none;
+    height: 35px;
+    width: 250px;
+    border: none;
+
+}
+.header .menu_icon{
+    display: none;
+}
+.section{
+    height: auto;
+}
+.bg_image{
+    background-image: url("./background_image.jpg");
+    height: 95vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.bg_image_content{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    color: black;
+    left: 15%;
+    top: 30%;
+
+}
+.bg_image_content h3{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.bg_image_content h1{
+    font-size: 53px;
+    font-weight: bolder;
+
+}
+.bg_image_content button{
+    border-radius: 100px;
+    width: 215px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    transition-property: background-color, color, border-color, box-shadow;
+    transition-duration: .3s,.3s,.3s,.8s;
+    margin-top: 10px;
+}
+.text_first{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 75px 0;
+}
+.upper_text{
+display: flex;
+}
+.text_first h3{
+    font-size: 230%;
+    text-align: center;
+    padding: 0 90px;
+}
+.text_first div{
+    width: 100%;
+    text-align: center;
+}
+.text_first p{
+    font-size: 120%;
+    line-height: 1.5;
+    padding: 0 90px;
+}
+.text_first a{
+    text-decoration: none;
+}
+
+.html_div{
+    width: 100%;
+    background-color: #ffc46c;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+.headphones_card_div{
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headphones_card_div span{
+    padding: 50px 0;
+    width: 100%;
+    text-align: center;
+
+}
+.headphones_card_div h1{
+    font-size: 250%;
+    font-weight: 100;
+    padding: 0 5%;
+}
+.card_main{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+    flex-basis: 25%;
+}
+.card_image{
+    width: 100%;
+}
+.card_image_button{
+    position: absolute;
+    top: 20px;
+    left: 28px;
+    border-radius: 50px;
+    height: 40px;
+    width: 116px;
+    border-style: none;
+    background-color: #ffc46c;
+}
+    .inner_card_text{
+    background-color: #ffc46c;
+    padding: 5%;
+    }
+.inner_card_text p{
+    font-size: 16px;
+    word-spacing: 2px;
+    color: white;
+    line-height: 30px;
+}
+.headphones_pics_section{
+    margin: auto;
+}
+.pics_section{
+    display: flex;
+    justify-content: center;
+}
+.headphones_pics_section .pics_section .headphones_pics{
+    position: relative;
+    padding: 0.5%;
+    flex-basis: 18%;
+}
+.pics_section .moisture{
+    display: none;
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    background-color: #59585d;
+    opacity: 0.9;
+    top: 6px;
+}
+.pics_section .moisture h2{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.pics_section .moisture::before{
+    content: "+";
+    width: 40px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 24px;
+    left: 42%;
+    top: 42%;
+}
+.headphones_pics_section .pics_section .headphones_pics img{
+    width: 100%;
+    height: 100%;
+}
+.headphones_pics_section .pics_section .headphones_pics:hover > .moisture{
+    cursor: pointer;
+    display: block;
+}
+.pics_section2{
+    padding-bottom: 4%;
+}
+.text_section{
+    width: 100%;
+    background-color: #ffc46c;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    margin-bottom: 5%;
+    padding: 3% 0;
+}
+
+.text_section p{
+    padding: 10px;
+}
+.text_section h1{
+    padding: 10px;
+    font-size: 240%;
+    font-weight: bolder;
+}
+.text_section button{
+    border-radius: 30px;
+    width: 112px;
+    height: 44px;
+    background-color: aliceblue;
+    border-style: none;
+}
+.text_card_section{
+    margin: auto;
+    padding-bottom: 30px;
+    
+}
+.text_card_section .text_section_span{
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    padding: 3% 5%;
+}
+.text_card_main{
+    display: flex;
+    justify-content: center;
+    
+}
+.text_card{
+    position: relative;
+    flex-basis: 17%;
+    margin: .6%;
+    height: auto;
+    margin-bottom: 3%;
+}
+.text_card h1{
+    font-size: 500%;
+    font-weight: 700;
+    color: #ffc46c;
+}
+.text_card h5{
+    position: absolute;
+    left: 3px;
+    /* right: 172px; */
+    top: 30px;
+    font-weight: 900;
+    font-size: 15px;
+}
+.text_card p{
+    color: lightgray;
+    line-height: 20px;
+}
+.text_card a{
+    color: #ffc46c;
+    text-decoration: none;
+}
+.text_upper_map{
+    width: 100%;
+    text-align: center;
+}
+.text_upper_map h3{
+    color: gray;
+    padding: 10px;
+}
+.text_upper_map h1{
+    font-weight: 900;
+    font-size: 35px;
+
+}
+.map{
+    width: 100%;
+    height: 450px;
+}
+.google_map{
+    width: 100%;
+    height: 400px;
+    border: 0;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer_img{
+    width: 100px;
+    height: auto;
+}
+footer p{
+    color:gray;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+#faa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color:white;
+    background-color: #ffc46c;
+    height: 40px;
+    width: 40px;
+    margin: 3px;
+    
+}
+
+@media screen and (max-width: 970px){
+    .text_card h5 {
+        font-size: 70%;
+        top: 12%;
+    }
+    .header ul a{
+        display: none;
+    }
+    .pics_section .moisture {
+    top: 4px;
+    }
+}
+    @media screen and (max-width: 780px){
+      .header input{
+          display: none;
+      }
+      .header .menu_icon{
+          display: block;
+    }
+ 
+.text_first h3 {
+    font-size: 160%;
+    text-align: center;
+}
+.text_first {
+    padding: 5% 0;
+
+}
+.text_first p{
+    padding: 0 30px;
+}
+    .card{
+        width: 80%;
+    }
+    .card_main{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .pics_section{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .headphones_pics{
+        width: 80%;
+    }
+    .text_section{
+        display: block;
+        text-align: center;
+    }
+    .text_card_main{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text_card{
+        margin: .6%;
+        margin-bottom: 3%;
+        width: 80%;
+        text-align: center;
+    }
+    .text_card h5{
+        left: 39%;
+        top: 25%;
+    }
+    footer{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 30px;
+    
+    }
+    .pics_section .moisture {
+        width: 99%;
+        height: 97%;
+
+    }
+    .pics_section .moisture::before {
+        left: 47%;
+    top: 47%;
+    }
+    .pics_section .moisture h2 {
+        left: 210px;
+    }
+}
+@media screen and (max-width: 600px){
+.text_card h5{
+    top: 22%;
+    left: 37%;
+}
+}
+@media screen and (max-width: 540px){
+    .text_card h5{
+        top: 20%;
+        left: 35%;
+    }
+    }
+@media screen and (max-width: 420px){
+    .text_card h5{
+        top: 20%;
+        left: 30%;
+    }
+}
